@@ -67,6 +67,11 @@ struct HSICData_t {
     float   contrast;
 };
 
+enum IGC_t {
+    IGC_NotSpecified,
+    IGC_sRGB,
+};
+
 struct BufferDim_t {
   int32_t sliceWidth;
   int32_t sliceHeight;
