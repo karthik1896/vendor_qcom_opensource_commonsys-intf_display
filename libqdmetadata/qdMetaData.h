@@ -60,6 +60,13 @@ enum ColorSpace_t {
   ITU_R_709_FR,
 };
 
+struct HSICData_t {
+    int32_t hue;
+    float   saturation;
+    int32_t intensity;
+    float   contrast;
+};
+
 struct BufferDim_t {
   int32_t sliceWidth;
   int32_t sliceHeight;
